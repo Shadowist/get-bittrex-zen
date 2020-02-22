@@ -20,8 +20,9 @@ def main(zen_addr, debug=False):
 			"Fees ($)",
 			"After Fee ($)"
 		])
-	    for entry in zen_data.tx_history:
-	    	wr.writerow(entry)
+
+	for entry in zen_data.tx_history:
+		wr.writerow(entry)
 
 
 if __name__ == "__main__":

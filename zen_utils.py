@@ -39,7 +39,7 @@ class zen_address_data():
 		# Initialize Bittrex Class
 		bittrex_api = bittrex.bittrex_api()
 
-		logger.info("Polling transactions...".format(self.zen_address))
+		logger.info("Polling transactions...")
 		self.transactions = self.data["transactions"]
 		tx = []
 		spent_addrs = []
